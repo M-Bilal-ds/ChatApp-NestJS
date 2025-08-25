@@ -125,6 +125,15 @@ onMounted(() => {
     })
     scrollToBottom()
   })
+
+  socket.on('disconnect', () => {
+    messages.value.push({
+      username: 'System',
+      message: 'You have been disconnected',
+      timestamp: new Date()
+    })
+    scrollToBottom()
+  })
 })
 </script>
 

@@ -1,3 +1,4 @@
+<style scoped>
 #app {
   font-family: Arial, sans-serif;
   max-width: 800px;
@@ -134,3 +135,4 @@ h1 {
 .send-btn:hover {
   background: #218838;
 }
+</style>
