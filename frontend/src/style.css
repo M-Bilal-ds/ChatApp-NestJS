@@ -1,0 +1,136 @@
+#app {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.chat-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.username-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.username-input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.join-btn {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.join-btn:hover {
+  background: #0056b3;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #e9ecef;
+  border-radius: 4px;
+}
+
+.leave-btn {
+  padding: 5px 15px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.leave-btn:hover {
+  background: #c82333;
+}
+
+.messages {
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 15px;
+  background: white;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.message {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #f1f3f4;
+}
+
+.own-message {
+  background: #d4edda;
+  margin-left: 50px;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #666;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.message-content {
+  font-size: 14px;
+  color: #333;
+}
+
+.message-input-section {
+  display: flex;
+}
+
+.message-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.send-btn {
+  padding: 10px 20px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.send-btn:hover {
+  background: #218838;
+}
